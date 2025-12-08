@@ -61,6 +61,8 @@ This is however only a proof-of-concept.
 
 The file `output.py` computes the period sequences as reported in `output.txt`,
 and is part of a continuous integration on GitHub to showcase the code.
+It computes the periods in Tables 1 and 2 of the paper,
+at up to twice the precision reported in the paper.
 
 ## Comparison to naive approach
 
