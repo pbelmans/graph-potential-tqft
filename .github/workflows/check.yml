@@ -1,0 +1,18 @@
+name: Verifying some output
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - output.sage
+      - tqft.sage
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    container:
+      image: sagemath/sagemath:10.5
+      options: --user root
+    steps:
+      - name: Checkout this repository
+        uses: actions/checkout@v4
+      - name: Compare the output
+        run: sage output.sage | diff - output.txt
