@@ -24,7 +24,7 @@ please use
 @software{tqft-graph-potential,
   author = {Belmans, Pieter and Galkin, Sergey and Mukhopadhyay, Swarnava},
   title  = {Code accompanying ``Graph potentials and topological quantum field theories''},
-  url    = {https://github.com/pbelmans/tqft-graph-potential},
+  url    = {https://github.com/pbelmans/graph-potential-tqft},
   year   = {2025},
 }
 ```
