@@ -1,3 +1,5 @@
+[![pdf](https://github.com/pbelmans/graph-potential-tqft/actions/workflows/check.yml/badge.svg)](https://github.com/pbelmans/graph-potential-tqft/actions/workflows/check.yml)
+
 # Code accompanying "Graph potentials and topological quantum field theories"
 
 This code accompanies the paper
