@@ -3,9 +3,8 @@ TQFT approach to computing period sequences of graph potentials.
 Translation of tqft.sage using Nemo.jl with block-diagonal decomposition.
 
 Usage:
-  tqft = TQFT(20)
+  tqft = TQFT(20);
   regularized_period(tqft, 3, 1)
-  all_regularized_periods(tqft, 2:10)
 """
 
 using Nemo: QQ, ZZ, QQRelPowerSeriesRing, QQRelPowerSeriesRingElem, MatElem, ZZRingElem, QQFieldElem, power_series_ring, matrix, binomial, precision, coeff, parent, tr
